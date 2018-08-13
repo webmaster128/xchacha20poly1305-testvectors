@@ -2,3 +2,7 @@
 
 # build results
 main
+
+# huge builds
+*.size4.vec
+*.size5.vec
