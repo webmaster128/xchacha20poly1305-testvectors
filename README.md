@@ -26,6 +26,12 @@ $ make size=4 && ./main > xchacha20poly1305.size4.vec
 10400 tests generated
 ```
 
+```
+$ make size=5 && ./main > xchacha20poly1305.size5.vec
+[...]
+101120 tests generated
+```
+
 ## Size levels
 
 The rule of thumb is that size=`n` should include roughly `10^n` tests.
